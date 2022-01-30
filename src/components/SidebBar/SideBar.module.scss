@@ -1,0 +1,53 @@
+.sideBar {
+    background: #8059D7;
+    padding: 65px 0px 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.avaAndName {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+    color: #fff;
+
+    & img {
+        margin-right: 30px;
+    }
+}
+
+.sideMenu {
+    & ul {
+        margin: 0;
+    }
+
+    & .list {
+
+        & li a {
+            color: #BFADEA;
+        }
+
+        & li a:hover {
+            color: #fff;
+            cursor: pointer;
+        }
+
+        & li:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    & .settings {
+        margin-top: 60px;
+    }
+
+    & .listItem {
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
