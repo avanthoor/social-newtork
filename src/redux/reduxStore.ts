@@ -1,8 +1,11 @@
 import {applyMiddleware, combineReducers, createStore } from "redux";
-import thunkMiddlleWare from 'redux-thunk'
+import thunkMiddleWare from "redux-thunk";
+import postsReducer from "./postsReducer";
 
-let reducers = combineReducers({})
+let reducers = combineReducers({
+    posts: postsReducer
+})
 
-let store = createStore(reducers, applyMiddleware(thunkMiddlleWare))
+let store = createStore(reducers, applyMiddleware(thunkMiddleWare))
 
 

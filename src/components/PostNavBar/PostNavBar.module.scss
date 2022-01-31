@@ -1,0 +1,13 @@
+.postNavBar {
+  display: flex;
+  align-items: center;
+
+  & .searchPost {
+    color: #8059D7;
+    font-size: 36px;
+  }
+}
+
+.postNavBar > *:not(:last-child) {
+  margin-right: 30px;
+}

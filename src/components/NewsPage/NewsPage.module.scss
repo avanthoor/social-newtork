@@ -1,18 +1,28 @@
-.newsPageContainer {
-  padding: 50px 60px;
-}
+.newsPage {
+  & .newsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
 
-.newsHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    & h1 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
 
-  & h1 {
-    font-size: 24px;
-    font-weight: 700;
+  & .addPostInput {
+    margin-bottom: 60px;
+  }
+
+  & .postNavBar {
+    margin-bottom: 30px;
+  }
+
+  & .posts > * {
+    margin-bottom: 60px;
   }
 }
 
-.AddPostTextArea {
-  width: 100%;
-}
+
+

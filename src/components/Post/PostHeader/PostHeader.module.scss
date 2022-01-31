@@ -1,0 +1,31 @@
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & .sendInfo {
+    display: flex;
+
+    & .ava {
+      margin-right: 15px;
+    }
+
+    & .fullNameAndHowLong {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      & .fullName {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 5px 0;
+      }
+
+      & .howLongAgo {
+        font-size: 12px;
+        font-weight: 500;
+        color: #8B8C8C;
+      }
+    }
+  }
+}

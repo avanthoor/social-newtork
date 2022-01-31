@@ -1,0 +1,42 @@
+.commentInputWrapper {
+  display: flex;
+
+  &:focus-within {
+    outline: 2px solid #3f72ce;
+  }
+
+  & .commentInput {
+    width: 100%;
+    height: 60px;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    background: #F1F1FA;
+
+    &::placeholder {
+      padding-left: 30px;
+      line-height: 55px;
+
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  & .icons {
+    display: flex;
+    align-items: center;
+    background: #F1F1FA;
+    padding-right: 35px;
+    color: #8059D7;
+    font-size: 20px;
+
+    & .icon {
+      cursor: pointer;
+    }
+  }
+}
+
