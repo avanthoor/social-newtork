@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# Home
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Название | Тип | Ответственный | Стадия зрелости | Ссылка на репо | Автосборка | Автотесты | Автотесты | Число реальных использований |
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|auth | :books: | [Всеволод Кочетков](https://dev.gnivc.ru/vsevolod_kochetov) | <img src="assets/concept.jpg" width="48px"> | https://dev.gnivc.ru/gnivc-ff/auth | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | 0 |
+| cra-template-web | :triangular_ruler: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/cra-template-web | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :question: |
+| cra-template-web-ui-kit | :triangular_ruler: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/cra-template-web-ui-kit | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :question: |
+dev-utils | :wrench: | :bust_in_silhouette: | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/dev-utils/issues | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :question: |
+diagram-editor | :books: | Алексей Сечкарёв | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/diagram-editor | :heavy_check_mark: | :heavy_check_mark: | :question: | :question: |
+dynamic-forms | :books: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) |  <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/dynamic-forms | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
+| e2e-testing | :wrench: | :bust_in_silhouette: | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/e2e-testing | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :question: |
+| generator | :wrench: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/generator | :heavy_check_mark: | :heavy_check_mark: | :heavy_multiplication_x: |  :question: |
+| layouting | :books: | [Марина Хмелёва](https://dev.gnivc.ru/marina_khmeleva) | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/layouting | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
+| linting | :wrench: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/linting | :heavy_check_mark: | :heavy_check_mark: | :heavy_multiplication_x: | :question: |
+| react-native-template-typescript-ff | :triangular_ruler: | :bust_in_silhouette: | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/react-native-template-typescript-ff | :heavy_check_mark: | :heavy_check_mark: | :heavy_multiplication_x: | :question: |
+| search | :books: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/search | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
+| styleguide | :wrench: | :bust_in_silhouette: | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/styleguide | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :question: | 
+| ui-blocks | :books: | [Алексей Лавров](https://dev.gnivc.ru/alexey_lavrov) | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/ui-blocks | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
+| ui-composition | :question: | [Василий Никитин](https://dev.gnivc.ru/vasily_nikitin) | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/ui-compositions |:heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :question: |
+| ui-constructor-backend | :wrench: | [Алексей Черницын](https://dev.gnivc.ru/alexey_chernitsyn) | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/ui-constructor-backend | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :question: |
+| ui-constructor-frontend | :wrench: | [Сергей Белянин](https://dev.gnivc.ru/sergey_belyanin) | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/ui-constructor-frontend | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
+| ui-kit | :books: |  [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/ui-kit | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
+| ui-kit-website| :books: | :bust_in_silhouette: | <img src="assets/in_progress.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/ui-kit-website | :heavy_check_mark: | :heavy_check_mark: | :heavy_multiplication_x: | :question: |
+| web-catalog | :books: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/web-catalog | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
+| web-map | :books: | [Антон Суходелец](https://dev.gnivc.ru/anton_sukhodolets) | <img src="assets/prom.jpg" width="48"> | https://dev.gnivc.ru/gnivc-ff/web-map | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :question: |
