@@ -7,6 +7,7 @@
 ---
 
 ### Стадии зрелости:
+- :white_circle: - Ничего нет
 - :bulb: - Концепт
 - :construction_worker: - Разработка
 - :tada: - Релиз 
